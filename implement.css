@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container-links {
+    width: 500px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.items-link {
+    background-color: white;
+    width: 500px;
+    height: 50px;
+    box-shadow: 5px 10px rgb(166, 0, 255) ;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+
+
+}
+
+.items-link:hover{
+    background-color: rgb(222, 222, 222);
+    transition-duration: 400ms;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(127, 127, 255);
+}
+.container {
+    background-color: rgba(38, 0, 255, 0.689);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
